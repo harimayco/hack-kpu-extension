@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link href="/css/editable.css" rel="stylesheet"/>
+      <style>
+        body {
+          width: 500px;
+          outline: none;
+        }
+        .res{
+          font-weight:bold;
+        }
+        #jok_per, #prab_per {
+          color:red;
+        }
+        .editable-input input{
+          width:85px;
+        }
+      </style>
+
+    </head>
+    <body>
+      <div style="border-bottom:1px solid #000;margin-bottom:10px">
+        <img style="float:left;margin-right:20px" src="/kpu.png"><h1 style="float:left">Hack Server KPU</h1><br />
+        <div style="clear:both">&nbsp;</div>
+      </div>
+      <p><i><b>*WARNING</b>: Dengan menggunakan tools ini anda telah siap menerima segala konsekuensinya karna tools ini sangat berbahaya jika jatuh ke tangan yang salah.</i></p>
+      <p>Hasil terkini:</p>
+      01. Jokowi - Ma'ruf: <span class="res">
+        <a href="#" id="jok-editable" class="editable" data-type="number" data-url="/post">Loading...</a>
+      (<span id="jok_per">%</span>)</span><br />
+      02. Prabowo - Sandi: <span class="res">
+        <a href="#" id="prab-editable" class="editable" data-type="number" data-url="/post">Loading...</a>
+      (<span id="prab_per">%</span>)</span><br /><br />
+      <button id="hack-btn">Hack!</button> <button id="reset">Reset</button><br /><br />
+      <div id="logs" style="background-color:#000;height:270px;color:green;overflow-y:scroll;">
+      <!-- [2019-05-22]# <span style="color:yellow">Server KPU telah berhasil dihack</span><br />
+      [2019-05-22]# Completed!<br />
+      [2019-05-22]# Processing....<br />
+      [2019-05-22]# Exploit DB....<br />
+      [2019-05-22]# Injecting script....<br /> -->
+       </div><br />
+      <button id="clear">Clear log</button>&nbsp;
+      <script src="/jquery.js"></script>
+      <script src="/editable.js"></script>
+      <script src="/main.js"></script>
+    </body>
+  </html>

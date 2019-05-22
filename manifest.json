@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Hack Server KPU",
+  "description": "Buat lucu2an aja jangan digunakan untuk sebar hoax kampret!",
+  "version": "1.1",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs",
+    "https://pemilu2019.kpu.go.id/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://pemilu2019.kpu.go.id/*"],
+      "run_at": "document_start",
+      "js": ["inject.js"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "kpu-def.png"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "web_accessible_resources": ["injected.js"]
+}
