@@ -12,4 +12,4 @@
 ## Perhatian:
 
 Extension ini hanya untuk iseng2 dan lucu2an semata tidak diperuntukan untuk membuat Hoax ala2 kampret dan cebong.
-Perubahan data hanya terjadi di local browser melalui manipulasi DOM menggunakan javascript.
+Perubahan data hanya terjadi di local browser melalui proses manipulasi DOM menggunakan javascript.
